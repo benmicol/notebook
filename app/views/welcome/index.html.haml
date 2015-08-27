@@ -1,0 +1,35 @@
+#banner
+	.banner_content
+		%h1 NoteNote
+		%p Your online notebook. Never forget an idea again.
+		%button= link_to "Sign Up", new_user_registration_path
+
+#testimonial
+	.wrapper
+		%p.quote "The greatest notebook application. Period."
+		%p.name - Ben Micol
+
+#callouts
+	.callout_inner
+		.wrapper
+			.callout
+				%i.fa.fa-pencil
+				%h2 Notes
+				%p Example text Example text Example text Example text Example text Example text Example text Example text Example text Example text
+			.callout
+				%i.fa.fa-rocket
+				%h2 Rocket
+				%p Example text Example text Example text Example text Example text Example text Example text Example text Example text Example text
+			.callout
+				%i.fa.fa-bolt
+				%h2 Lightning
+				%p Example text Example text Example text Example text Example text Example text Example text Example text Example text Example text
+
+#bottom_cta
+	.wrapper
+		%h2 For Realz!
+		%p I want you to sign up... If you don't, I will find you!
+		%button= link_to "Click Me!", new_user_registration_path
+
+%footer
+	%p &copy; Ben Micol
